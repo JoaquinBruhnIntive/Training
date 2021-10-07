@@ -1,0 +1,68 @@
+@import url(https://urldefense.com/v3/__https://fonts.google.com/specimen/Abril*Fatface?preview.text=years*20font*20family*20classic&preview.text_type=custom*standard-styles__;KyUlJSM!!CyYWWBA!Uk-Lopj0mOAZ7SxhnXHzdq_QjaD6O9vV1Hac70BvPIweX6KL0vGKVRtr6FnEYbhejvZ8$);
+:root{
+    --font-general:"helvetica";
+    --font-title:"abril fatface";
+}
+/*----------------
+HTML tags
+------------------*/
+body{
+    margin: 0;
+}
+/*------------------
+Custom classes
+--------------------*/
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    font-family: var(--font-general);
+}
+.newspaper{
+    width: 1000px;
+    height: 800px;
+}
+.trash_title{
+    text-transform: uppercase;
+    align-self: flex-end;
+    margin: 2% 0 2% 0;
+}
+.content{
+    display: flex;
+    height: 90%;
+    width: 1000px;
+}
+.side{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 30%;
+    color: white;
+    background-color: black;
+}
+.side h1{
+    margin: 100px 0;
+    font-family: var(--font-title);
+    font-size: 98px;
+}
+.side h5{
+    text-transform: uppercase;
+}
+.article{
+    border-top: black solid 3px;
+    width: 70%;
+    padding-top: 70px;
+    padding-left: 70px;
+}
+.article h1{
+    margin-top: 0;
+    font-family: var(--font-title);
+
+}
+.article p{
+    font-family: var(--font_general);
+    column-count: 2;
+    font-size: 14px;
+}

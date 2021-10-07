@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap [fonts.googleapis.com]');
+body{
+    background: #f2f2f2;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 400px;
+    font-family: 'Merriweather', serif;
+    background-color: white;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    border-radius: 20px;
+}
+.text{
+    position:relative;
+    margin: 150px 30px 0px 30px
+}
+.title{
+    text-align: center;
+}
+.pharagraph:first-letter{
+    text-transform: capitalize;
+}
+.capital{
+    text-transform: capitalize;
+}

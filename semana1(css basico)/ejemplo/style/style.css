@@ -1,0 +1,31 @@
+/* PUNTO 1 */
+.punto_1 > p{
+ color: red;
+}
+.punto_2 p{
+    color: red;
+}
+.punto_3 > :nth-child(1){
+    color: red;
+}
+.punto_4 > :nth-last-child(1){
+    color: red;
+}
+.punto_5 ul li ul > :nth-child(2){
+    color: red;
+}
+.punto_6 ul li ul > :nth-child(odd){
+    color: red;
+}
+.punto_7 ul > li:last-child p{
+    color: red;
+}
+.punto_8{
+    color: red;
+}
+.punto_9 ul li ul > li{
+    color: red;
+}
+.punto_10 + h1{
+    color: red;
+}

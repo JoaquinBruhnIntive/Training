@@ -1,0 +1,76 @@
+body{
+    background-color: #f5f7f8;
+    margin:0%
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 25%;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition-duration: 0.5s;
+}
+.container:hover{
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+}
+/*-------------------
+FIRST HALF(image)
+--------------------*/
+.overflow_check{
+    width: 100%;
+    height: 40%;
+    overflow: hidden;
+}
+.img_background{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://urldefense.com/v3/__https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-1.jpg__;!!CyYWWBA!UvtAj0sVMJh1U1LtJMZImYD2mipGdycCS0_TNr4fzYrP5vxkcRmjyCmGpTDkv-u7_VTx$);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+.container:hover .img_background{
+    transform: scale(1.1);
+}
+/*-------------------
+SECOND HALF(text)
+---------------------*/
+.text_container{
+    display: inline-block;
+    width: 100%;
+    height: 60%;
+    overflow-y: auto;
+    font-family: system-ui;
+}
+.text_content{
+    margin: 15px;
+}
+.title{
+    text-transform: capitalize;
+}
+.pharagraph{
+    font-weight: 500;
+    opacity: 0.6;
+    line-height: 1.4;
+}
+.pharagraph:first-letter{
+    text-transform: capitalize
+}
+.author{
+    opacity: 0.5;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+/*----------------------------
+SPECIFIC APLICATION CLASSES
+------------------------------*/
+.noncapital{
+    text-transform: lowercase;
+}
+.capital{
+    text-transform: capitalize;
+}

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100,200,300,400,500,600,700&display=swap');
+
+:root {
+ --font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+/*=============
+ Typography 
+ =============*/
+.title {
+    color: #d79491;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+a {
+    font-size: .8rem;
+    text-decoration: none;
+    color: #877883;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+h1,
+h2,
+h3,
+.social-networks div i {
+    color: #393a34;
+}
+
+.social-networks div i:hover,
+.social-networks div i:focus {
+    color: #4e5047;
+    cursor: pointer;
+}
+
+p {
+    color: #877883;
+}
+
+.container-main-section h1 {
+    font-size: 3rem;
+}
+
+.container-main-section h1 span {
+    color: #d79491;
+}
+
+.container-main-section p {
+    font-size: 1rem;
+}
+
+.container-main-section i {
+    font-size: 3rem;
+}
+
+.container-about-me h2,
+.container-about-me p {
+    text-align: center;
+}
+
+.container-about-me h2{
+    font-size: 2.25rem;
+}
+
+.container-about-me p{
+    font-size: 1.25rem;
+    line-height: 1.55em;
+    color: #877883;
+}  
+
+ /*=============
+ Layout
+ =============*/
+ .container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    height: 55px;
+}
+
+header .container-flex {
+    position: fixed;
+    background-color: #ffffff;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.container-flex >* {
+    flex-basis: 50%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-left: 195px;
+}
+
+
+/* .title {
+    
+} */
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    margin-left: .5em;
+}
+
+ul li {
+    margin-left: 1em;
+    margin-left: .5em;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-networks div {
+    margin-left: 1em;
+}
+
+main {
+    height: 100vh;
+} 
+.container-main-section {
+    width: 287px;
+    margin: 9em 3em 0em 12em;
+}
+
+.my-picture {
+    background-image: url('https://inovatik.com/nico/images/header-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container-about-me {
+    height: 100vh;
+    margin-bottom: 2em;
+}
+
+.container-about-me h2 {
+    margin-top: 90px;
+}
+
+.container-about-me p{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.container-about-me img {
+    margin: 3em auto;
+    max-width: 100%;
+    display: block;
+}
+
+.container-articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto 5em auto;
+    width: 1112px;
+}
+
+.container-articles >* {
+    flex-basis: 30%;
+}

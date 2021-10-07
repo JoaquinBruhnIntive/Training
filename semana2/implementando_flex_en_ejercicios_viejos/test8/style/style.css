@@ -1,0 +1,96 @@
+@import url(https://urldefense.com/v3/__https://images.unsplash.com/photo-1606830733744-0ad778449672?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzl8fGNocmlzdG1hcyUyMHRyZWV8ZW58MHx8MHw*3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60__;JQ!!CyYWWBA!RugEUWquC2koi7haPBu5N_nacaUe-piLvJGYnbnHtEi2XqZ8ihz7ESluj8DOVy745zV5$);
+/*------------------
+Easy to access values
+--------------------*/
+:root{
+    --font_title:'Bebas Neue', cursive;
+    --font_pharagraph:'EB Garamond', serif;
+    --font_buy:'Farsan', cursive;
+    --background_src:url(https://urldefense.com/v3/__https://images.unsplash.com/photo-1606830733744-0ad778449672?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzl8fGNocmlzdG1hcyUyMHRyZWV8ZW58MHx8MHw*3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60__;JQ!!CyYWWBA!RugEUWquC2koi7haPBu5N_nacaUe-piLvJGYnbnHtEi2XqZ8ihz7ESluj8DOVy745zV5$);
+    --background: #e9db9f;
+    --card_background:rgb(255, 255, 255);
+    --price_background:rgb(0, 0, 0);
+    --buy_background:rgb(163, 124, 255);
+    --white_text:white;
+    --shadow:0 0 20px 8px #d0d0d0;
+}
+/*------------------
+HTML tags
+--------------------*/
+body{
+    margin: 0;
+    background-color: var(--background);
+}
+/*------------------
+Reusable classes
+--------------------*/
+.d_flex_generic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.capital{
+    text-transform: capitalize;
+}
+.buy_style{
+    font-family: var(--font_buy);
+    color: var(--white_text);
+    padding: 10px;
+}
+/*------------------
+Specific clsasses
+--------------------*/
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.card{
+    width: 55%;
+    height: 70%;
+    background-color: white;
+    box-shadow: var(--shadow);
+    border-radius: 5px;
+}
+.info_container{
+    width: 55%;
+    height: 100%;
+}
+.text_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+}
+.text_area{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    text-transform: uppercase;
+    font-family: var(--font_title);
+}
+.pharagraph{
+    font-family: var(--font_pharagraph);
+    font-size: 20px;
+}
+.price{
+    background-color: var(--price_background);
+    border-radius: 10px 0px 0px 10px;
+}
+.buy_link{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: var(--buy_background);
+    border-radius: 0px 10px 10px 0px;
+}
+.img_background{
+    width: 45%;
+    height: 100%;
+    background-image:var(--background_src);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0px 5px 5px 0px;
+}
+

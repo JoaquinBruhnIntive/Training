@@ -1,0 +1,86 @@
+/*------------------
+Easy to access values
+--------------------*/
+:root{
+    --img_background:url(https://urldefense.com/v3/__https://images.unsplash.com/photo-1574007557239-acf6863bc375?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80__;!!CyYWWBA!RugEUWquC2koi7haPBu5N_nacaUe-piLvJGYnbnHtEi2XqZ8ihz7ESluj8DOV1YieQN8$);
+    --img_thumbnail: url(https://urldefense.com/v3/__https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80__;!!CyYWWBA!RugEUWquC2koi7haPBu5N_nacaUe-piLvJGYnbnHtEi2XqZ8ihz7ESluj8DOV7FMU6cV$);
+    --background_color: #80afcd;
+    --card_background: rgb(255, 255, 255);
+    --shadow:0 0 20px 8px #d0d0d0;
+    --font:Arial, Helvetica, sans-serif;
+}
+/*------------------
+HTML tags
+--------------------*/
+body{
+    margin: 0;
+    background-color: var(--background_color);
+    font-family: var(--font);
+}
+h3, h6{
+    margin:0;
+}
+/*------------------
+Reusable classes
+--------------------*/
+.d_flex_generic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.capital{
+    text-transform: capitalize;
+}
+.img_fixing{
+    background-size: cover;
+    background-position:center
+}
+/*------------------
+Specific classes
+--------------------*/
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.card{
+    flex-direction: column;
+    width: 25%;
+    height: 70%;
+    background-color: var(--card_background);
+    box-shadow: var(--shadow);
+}
+.img_container{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    background-image: var(--img_background);
+}
+.analytics{
+    display: inline-block;
+    margin: 5%;
+    background-color: rgb(0, 0, 0,0.3);
+    border-radius: 50px;
+}
+.stats{
+    color: rgb(255, 255, 255);
+    padding: 3%;
+}
+.user_container{
+    width: 100%;
+    height: 20%;
+}
+.thumbnail{
+    width: 20%;
+    height: 70%;
+    margin: 5%;
+    background-image: var(--img_thumbnail);
+    border-radius: 50px;
+}
+.info{
+    align-items: initial;
+    flex-direction: column;
+    width: 80%;
+    height: 90%;
+}

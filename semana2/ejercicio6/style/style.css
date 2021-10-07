@@ -1,0 +1,104 @@
+:root{
+    --img-office:url(https://urldefense.com/v3/__https://inovatik.com/nico/images/about.jpg__;!!CyYWWBA!Ref4vzjaeGldXr7BvnuVOyZ0UGOKYWTVwPOAgvyDHjWeEAt8hz9GNhw5L5OcOZxjr8nu$);
+    --img-on-laptop:url(https://urldefense.com/v3/__https://inovatik.com/nico/images/header-background.jpg__;!!CyYWWBA!Ref4vzjaeGldXr7BvnuVOyZ0UGOKYWTVwPOAgvyDHjWeEAt8hz9GNhw5L5OcOdj3LJQU$);
+    --bg-color:#ffffff;
+    --black:#393a34;
+}
+body{
+    margin: 0%;
+    background-color: var(--bg-color);
+    overflow-x: hidden;
+}
+/*------------------
+NAVBAR
+-------------------*/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 7vh;
+
+}
+header > nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:65%;
+    height: 100%;
+}
+header nav > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav  div > *{
+    padding: 10px;
+    margin: 0;
+}
+/*
+IMAGEN 1 Y 3 DEL EJERCICIO
+*/
+.container-introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+.container-introduction p{
+    padding: 0px 20px;
+}
+.container-introduction > div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+}
+.container-introduction div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.introduction-content-1 div{
+    flex-basis: 60%;
+}
+.introduction-content-1:first-child{
+    margin-top: 100px;
+}
+.first-img{
+    background-image: var(--img-office);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+}
+.introduction-content-2 div{
+    flex-basis: 30%;
+}
+/*--------------------
+imagen 2 del ejercicio
+----------------------*/
+.introduction-cotent-3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.introduction-cotent-3 > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 40%;
+}
+.laptop-img{
+    background-image: var(--img-on-laptop);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+}

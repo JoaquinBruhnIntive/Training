@@ -1,0 +1,20 @@
+:root{
+    --site-fontfamily:Arial, Helvetica, sans-serif;
+    --background-cover:url(https://www.lux-review.com/wp-content/uploads/2019/07/front-cover.jpg);
+    --nav-bg:none;
+    --nav-color:rgb(0, 0, 0);
+    --banner-color:rgb(0, 0, 0);
+    --banner-stroke: 1px rgb(255, 255, 255);
+    --content-bg-1:rgb(243, 220, 177);
+    --content-bg-2:rgb(255, 255, 255);
+    --content-title-color:rgb(0, 0, 0);
+    --content-pharagraph-color:rgb(0, 0, 0);
+    --nav-links-fontsize:1.6rem;
+    --banner-title-fontsize:3.5rem;
+    --banner-subtitle-fontsize:2.2rem;
+    --content-title--fontsize:2rem;
+    --content-pharagraph-fontsize:1.2rem;
+    --banner-title-letterspacing:0.8rem;
+    --banner-subtitle-fontweight:700;
+    --content-pharagraph-lineheight:30px;
+}

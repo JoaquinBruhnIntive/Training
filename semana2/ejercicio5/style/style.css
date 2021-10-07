@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+input[type=checkbox]{
+    display: none;
+}
+.cuarto-de-libre-contents{
+    display: none;
+    top: 1vw;
+    left: 1vw;
+    width: 20%;
+    height: 20%;
+    background-color: rgb(245, 243, 159);
+    border-radius: 30px;
+    align-items: center;
+    flex-direction: column;
+    transition: 1s;
+}
+.heaerino{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 30px;
+    background-color: rgb(255, 83, 83);
+}
+.container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#fulano:checked ~ .cuarto-de-libre-contents{
+    position: absolute;
+    display: flex;
+}
+.cuarto-de-libre-contents > p{
+    width: 90%;
+    height: 0%;
+    overflow: auto;
+    transition: 1s;
+}
+.cuarto-de-libre-contents:hover{
+    height: 80%;
+}
+.cuarto-de-libre-contents:hover > p{
+    height: 80%;
+}

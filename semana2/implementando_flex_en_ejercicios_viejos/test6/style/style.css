@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap [fonts.googleapis.com]');
+/* -------------------
+easy to access values 
+----------------------*/
+:root{
+    --background_site:#f2f2f2;
+    --shadow:0 0 20px 8px #d0d0d0;
+    --merriwheather:'Merriweather', serif;
+    --background_card:rgb(255, 255, 255);
+}
+/* -------------------
+HTML tags
+----------------------*/
+body{
+    margin: 0;
+    background-color: var(--background_site);
+    font-family: var(--merriwheather);
+}
+/* -------------------
+reusable classes
+----------------------*/
+.d_flex_generic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.capital{
+    text-transform: capitalize;
+}
+/* -------------------
+specific classes
+----------------------*/
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.card{
+    width: 40%;
+    height: 60%;
+    background-color: var(--merriwheather);
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+}
+.text{
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
+}

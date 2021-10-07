@@ -1,0 +1,38 @@
+body{
+    background-color: cadetblue;
+}
+.container{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 400px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform:uppercase;
+}
+.container_2{
+    position:relative;
+    margin: 10px;
+}
+.btn_checks{
+    display: none;
+}
+.tabs{
+    display: inline-block;
+    padding: 5px;
+    width: 30%;
+    height: 10%;
+    color: white;
+    border: black solid 1px;
+    border-radius: 50px;
+    background-color: cornflowerblue;
+}
+.text p{
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btn_1:checked ~ .text .content_1, #btn_2:checked ~ .text .content_2, #btn_3:checked ~ .text .content_3{
+    display: block;
+}

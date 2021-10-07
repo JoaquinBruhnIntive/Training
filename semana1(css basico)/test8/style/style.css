@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap [fonts.googleapis.com]');
+body{
+    margin: 0;
+    background: #f5efd0;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    height: 400px;
+    background: white;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+}
+.text_container{
+    display: inline-block;
+    width: 55%;
+    height: 100%;
+}
+.text{
+    margin: 40px;
+}
+.title{
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+}
+.pharagraph{
+    margin: 50px 0px;
+    font-family: 'EB Garamond', serif;
+}
+.buy_section{
+    margin: 70px;
+    font-size: 20px;
+}
+.price{
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px 0px 0px 5px;
+    font-family: 'Farsan', cursive;
+}
+.buy{
+    margin: 0;
+    padding: 10px;
+    background-color: #DFC2F2;
+    border-radius: 0px 5px 5px 0px;
+    font-family: 'Farsan', cursive;
+    text-decoration: none;
+    color: black;
+}
+.buy::first-letter{
+    text-transform: capitalize;
+}
+.capital{
+    text-transform: capitalize;
+}
+.img_container{
+    float: right;
+    width: 45%;
+    height: 100%;
+    background-image: url(https://urldefense.com/v3/__https://images.unsplash.com/photo-1606830733744-0ad778449672?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzl8fGNocmlzdG1hcyUyMHRyZWV8ZW58MHx8MHw*3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60__;JQ!!CyYWWBA!RugEUWquC2koi7haPBu5N_nacaUe-piLvJGYnbnHtEi2XqZ8ihz7ESluj8DOVy745zV5$);
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,76 @@
+/*------------------
+Easy to access values
+--------------------*/
+:root{
+    --thumbnail_1:url(https://urldefense.com/v3/__https://i.picsum.photos/id/1027/130/130.jpg?hmac=3g0qnkp9DtUw57HJkMRT0RCmIKgnpu1xPvwL20HdvMs__;!!CyYWWBA!RugEUWquC2koi7haPBu5N_nacaUe-piLvJGYnbnHtEi2XqZ8ihz7ESluj8DOV935U-IO$);
+    --thumbnail_2:url(https://urldefense.com/v3/__https://i.picsum.photos/id/839/130/130.jpg?hmac=LFCL6hRu3KdLEWtVgo-E0-ZAEpC_p8zGZkCnp_t4JRU__;!!CyYWWBA!RugEUWquC2koi7haPBu5N_nacaUe-piLvJGYnbnHtEi2XqZ8ihz7ESluj8DOV_HsaKZQ$);
+    --thumbnail_3:url(https://urldefense.com/v3/__https://i.picsum.photos/id/856/130/130.jpg?hmac=BMQyCbbX8WAUW0BVR_fYNDnB3WkOXPiQ7kjEgWw2DTc__;!!CyYWWBA!RugEUWquC2koi7haPBu5N_nacaUe-piLvJGYnbnHtEi2XqZ8ihz7ESluj8DOV2CPGrnA$);
+    --background_main:rgb(255, 255, 255);
+    --background_card:#f7f5ec;
+    --shadow:0 0 20px 8px #d0d0d0;
+    --font:tahoma;
+}
+/*------------------
+HTML tags
+--------------------*/
+body{
+    margin: 0;
+    background-color: var(--background_main);
+    font-family: var(--font);
+}
+/*------------------
+Reusable classes
+--------------------*/
+.d_flex_generic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.capital{
+    text-transform: capitalize;
+}
+.card{
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 60%;
+    width: 20%;
+    margin: 5%;
+    background-color: var(--background_card);
+    box-shadow: var(--shadow);
+}
+.thumbnail{
+    width: 60%;
+    height: 45%;
+    margin: 15%;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.author{
+    margin: 5% 0% 10%;
+    font-weight: 500;
+}
+.position{
+    margin:0%;
+    opacity: 0.5;
+}
+/*------------------
+Specific classes
+--------------------*/
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.user_1{
+    background-image: var(--thumbnail_1);
+}
+.user_2{
+    background-image: var(--thumbnail_2);
+}
+.user_3{
+    background-image: var(--thumbnail_3);
+}
+.info{
+    justify-content: flex-start;
+    flex-direction: column;
+}

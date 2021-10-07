@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-family: tahoma;
+}
+body > div{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: 300px;
+    background-color: #f7f5ec;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+}
+.container_1{
+    left: 20%;
+}
+.container_2{
+    left: 50%;
+}
+.container_3{
+    left: 80%;    
+}
+body  div .img_container{
+    display: inline-block;
+    width: 60%;
+    height: 45%;
+    margin: 10% 20%;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.container_1 .img_container{
+    background-image: url(https://urldefense.com/v3/__https://i.picsum.photos/id/1027/130/130.jpg?hmac=3g0qnkp9DtUw57HJkMRT0RCmIKgnpu1xPvwL20HdvMs__;!!CyYWWBA!RugEUWquC2koi7haPBu5N_nacaUe-piLvJGYnbnHtEi2XqZ8ihz7ESluj8DOV935U-IO$);
+}
+.container_2 .img_container{
+    background-image: url(https://urldefense.com/v3/__https://i.picsum.photos/id/839/130/130.jpg?hmac=LFCL6hRu3KdLEWtVgo-E0-ZAEpC_p8zGZkCnp_t4JRU__;!!CyYWWBA!RugEUWquC2koi7haPBu5N_nacaUe-piLvJGYnbnHtEi2XqZ8ihz7ESluj8DOV_HsaKZQ$);
+}
+.container_3 .img_container{
+    background-image: url(https://urldefense.com/v3/__https://i.picsum.photos/id/856/130/130.jpg?hmac=BMQyCbbX8WAUW0BVR_fYNDnB3WkOXPiQ7kjEgWw2DTc__;!!CyYWWBA!RugEUWquC2koi7haPBu5N_nacaUe-piLvJGYnbnHtEi2XqZ8ihz7ESluj8DOV2CPGrnA$);
+}
+.name{
+    margin: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+.position{
+    margin: 10px;
+    text-align: center;
+    opacity: 0.5;
+}
