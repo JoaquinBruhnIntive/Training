@@ -21,6 +21,8 @@
     --bs-light: #f8f9fa;
     --bs-dark: #212529;
     --bs-black: #000000;
+    --bs-font: "Barlow", sans-serif;
+    --fs-font: "Fraunces", serif;
     --bs-font-sans-serif: "Barlow Semi Condensed", sans-serif, "Fraunces", serif;
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -41,7 +43,7 @@
     
     --footer-bg: #91d3bf;
 
-    --nav-size: 1.5rem;
+    --nav-size: 1.4rem;
     --maintitle: 3.5rem;
     --maintitle-spacing: 0.5rem;
     --article2-first-titles: 2rem;
@@ -55,6 +57,7 @@
 }
 
 body{
+    font-family: var(--fs-font);
     margin: 0px;
 }
 a{
@@ -83,9 +86,9 @@ nav{
     justify-content: center;
     align-items: center;
 }
-nav > *{
+/* nav > *{
     margin: 0px 20px;
-}
+} */
 nav > li{
     font-size: var(--nav-size)
 }
@@ -132,15 +135,15 @@ ARTICLE 2
 
 .site-2 > div{
     width: 100vw;
-    height:75vh;
+    /* height:75vh; */
     display: flex;
     flex-wrap: wrap;
 }
 
-.site-2 > div > div{
+/* .site-2 > div > div{
     flex-basis: 50%;
     height: 100%;
-}
+} */
 .site-2-img{
     background-position: center;
     background-size: cover;
@@ -218,7 +221,7 @@ ARTICLE 3
     width: 100%;
 }
 .site-3 > div > div{
-    width: 20vw;
+    /* width: 20vw; */
     height: 25rem;
     margin: 10px;
 }
@@ -228,8 +231,8 @@ ARTICLE 3
 }
 .site-3 > div > div > :nth-child(1){
     width: 6rem;
-    height: 6rem;
-    margin: 10% auto;
+    /* height: 6rem;
+    margin: 10% auto; */
     border-radius: 50%;
     background-size: cover;
     background-position: center;
@@ -243,9 +246,9 @@ ARTICLE 3
 .site-3 > div > :nth-child(3) > :nth-child(1){
     background-image: var(--thumb-thoma);
 }
-.site-3 > div > div > :nth-child(2){
+/* .site-3 > div > div > :nth-child(2){
     height: 30%;
-}
+} */
 .site-3 > div > div > p{
     font-size: var(--article3-pharagraphs);
     font-weight: normal;
@@ -265,8 +268,8 @@ ARTICULO 4
     flex-wrap: wrap;
 }
 .site-4 > div{
-    flex-basis: 25%;
-    height: 55vh;
+    /* flex-basis: 25%;
+    height: 55vh; */
     background-size: cover;
     background-position: center;
 }
@@ -304,8 +307,8 @@ footer > :nth-child(2) > a{
     text-transform: capitalize;
     font-size: var(--footer-links);
     font-weight: bold;
-    margin: 0 30px;
+    /* margin: 0 30px; */
 }
-footer > :nth-child(3) > img{
+/* footer > :nth-child(3) > img{
     margin: 50px 20px 0;   
-}
+} */

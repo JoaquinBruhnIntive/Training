@@ -1,4 +1,4 @@
-@media only screen and (max-width:768px){
+@media only screen and (min-width:769px){
     :root {
         --bs-blue: #0d6efd;
         --bs-indigo: #6610f2;
@@ -57,38 +57,36 @@
 
 
     nav > *{
-        margin: 0px 10px;
+        margin: 0px 20px;
     }
 
     /*--------------------
     ARTICLE 2
     ---------------------*/
     .site-2 > div{
-        height:80vh;
+        height:75vh;
     }
 
     .site-2 > div > div{
-        flex-basis: 100%;
-        height: 40vh;
+        flex-basis: 50%;
+        height: 100%;
     }
 
     /*------------------------
     ARTICLE 3
     --------------------------*/
     .site-3 > div{
-        flex-direction: column;
+        flex-direction: row;
     }
     .site-3 > div > div{
-        width: 100vw;
-        height: 25rem;
-        margin: 10px;
+        width: 20vw;
     }
     .site-3 > div > div > :nth-child(1){
-        height: 8rem;
-        margin:0% auto;
+        height: 6rem;
+        margin: 10% auto;
     }
     .site-3 > div > div > :nth-child(2){
-        height: 15%;
+        height: 30%;
     }
 
     /*----------------------------
@@ -96,17 +94,17 @@
     -----------------------------*/
 
     .site-4 > div{
-        flex-basis: 50%;
-        height: 40vh;
+        flex-basis: 25%;
+        height: 55vh;
     }
 
     /*---------------------------
     FOOTER
     ----------------------------*/
     footer > :nth-child(2) > a{
-        margin: 0 40px;
+        margin: 0 30px;
     }
     footer > :nth-child(3) > img{
-        margin: 50px 20px 20px;   
+        margin: 50px 20px 0;
     }
 }
