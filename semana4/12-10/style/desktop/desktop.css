@@ -1,0 +1,55 @@
+@viewport{
+    width: device-with;
+    zoom: 0.8;
+}
+nav > *{
+    margin: 0px 20px;
+}
+
+/*--------------------
+ARTICLE 2
+---------------------*/
+.site-2 > div{
+    height:75vh;
+}
+
+.site-2 > div > div{
+    flex-basis: 50%;
+    height: 100%;
+}
+
+/*------------------------
+ARTICLE 3
+--------------------------*/
+.site-3 > div{
+    flex-direction: row;
+}
+.site-3 > div > div{
+    width: 20vw;
+}
+.site-3 > div > div > :nth-child(1){
+    height: 6rem;
+    margin: 10% auto;
+}
+.site-3 > div > div > :nth-child(2){
+    height: 30%;
+}
+
+/*----------------------------
+ARTICULO 4
+-----------------------------*/
+
+.site-4 > div{
+    flex-basis: 25%;
+    height: 55vh;
+}
+
+/*---------------------------
+FOOTER
+----------------------------*/
+footer > :nth-child(2) > a{
+    margin: 0 30px;
+}
+footer > :nth-child(3) > img{
+    margin: 50px 20px 0;
+}
