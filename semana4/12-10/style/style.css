@@ -41,6 +41,8 @@
     --img-article4-cone: url("../assets/images/desktop/image-gallery-cone.jpg");
     --img-article4-sugar: url("../assets/images/desktop/image-gallery-sugarcubes.jpg");
     
+    --learnmore1-underline: underline solid #ffff004f 7px;
+    --learnmore2-underline: underline solid #ff73643d 7px;
     --footer-bg: #91d3bf;
 
     --nav-size: 1.4rem;
@@ -178,6 +180,12 @@ ARTICLE 2
 .site-2 > :nth-child(1) > :nth-child(1) > :nth-child(3), .site-2 > :nth-child(2) > :nth-child(2) > :nth-child(3){
     font-size: var(--article2-learnmore);
     font-weight: bold;
+}
+.site-2 > :nth-child(1) > :nth-child(1) > :nth-child(3){
+    text-decoration: var(--learnmore1-underline);
+}
+.site-2 > :nth-child(2) > :nth-child(2) > :nth-child(3){
+    text-decoration: var(--learnmore2-underline);
 }
 .site-2 > :nth-child(3) > div{
     display: flex;
