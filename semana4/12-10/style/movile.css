@@ -1,0 +1,112 @@
+@media only screen and (max-width:768px){
+    :root {
+        --bs-blue: #0d6efd;
+        --bs-indigo: #6610f2;
+        --bs-purple: #6f42c1;
+        --bs-pink: #d63384;
+        --bs-red: #dc3545;
+        --bs-orange: #fd7e14;
+        --bs-yellow: #ffc107;
+        --bs-green: #198754;
+        --bs-teal: #20c997;
+        --bs-cyan: #0dcaf0;
+        --bs-white: #fff;
+        --bs-gray: #6c757d;
+        --bs-gray-dark: #343a40;
+        --bs-primary: #0d6efd;
+        --bs-secondary: #6c757d;
+        --bs-success: #198754;
+        --bs-info: #0dcaf0;
+        --bs-warning: #ffc107;
+        --bs-danger: #dc3545;
+        --bs-light: #f8f9fa;
+        --bs-dark: #212529;
+        --bs-black: #000000;
+        --bs-font-sans-serif: "Barlow Semi Condensed", sans-serif, "Fraunces", serif;
+        --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+        
+        
+        --img-header: url("../assets/images/desktop/image-header.jpg");
+        --img-egg: url("../assets/images/desktop/image-transform.jpg");
+        --img-cup: url("../assets/images/desktop/image-stand-out.jpg");
+        --img-cherry: url("../assets/images/desktop/image-graphic-design.jpg");
+        --img-orange: url("../assets/images/desktop/image-photography.jpg");
+        --thumb-emily: url("../assets/images/image-emily.jpg");
+        --thumb-jennie: url("../assets/images/image-jennie.jpg");
+        --thumb-thoma: url("../assets/images/image-thomas.jpg");
+        --img-article4-milk: url("../assets/images/desktop/image-gallery-milkbottles.jpg");
+        --img-article4-orange: url("../assets/images/desktop/image-gallery-orange.jpg");
+        --img-article4-cone: url("../assets/images/desktop/image-gallery-cone.jpg");
+        --img-article4-sugar: url("../assets/images/desktop/image-gallery-sugarcubes.jpg");
+        
+        --footer-bg: #91d3bf;
+
+        --nav-size: 1.5rem;
+        --maintitle: 3.5rem;
+        --maintitle-spacing: 0.5rem;
+        --article2-first-titles: 2rem;
+        --article2-first-pharagraphs: 1.1rem;
+        --article2-learnmore: 1.4rem;
+        --article3-title: 2rem;
+        --article3-clients: 1.3rem;
+        --article3-pharagraphs: 1.1rem;    
+        --footer-title: 2.5rem;
+        --footer-links: 1.2rem;
+    }
+
+
+    nav > *{
+        margin: 0px 10px;
+    }
+
+    /*--------------------
+    ARTICLE 2
+    ---------------------*/
+    .site-2 > div{
+        height:80vh;
+    }
+
+    .site-2 > div > div{
+        flex-basis: 100%;
+        height: 40vh;
+    }
+
+    /*------------------------
+    ARTICLE 3
+    --------------------------*/
+    .site-3 > div{
+        flex-direction: column;
+    }
+    .site-3 > div > div{
+        width: 100vw;
+        height: 25rem;
+        margin: 10px;
+    }
+    .site-3 > div > div > :nth-child(1){
+        height: 8rem;
+        margin:0% auto;
+    }
+    .site-3 > div > div > :nth-child(2){
+        height: 15%;
+    }
+
+    /*----------------------------
+    ARTICULO 4
+    -----------------------------*/
+
+    .site-4 > div{
+        flex-basis: 50%;
+        height: 40vh;
+    }
+
+    /*---------------------------
+    FOOTER
+    ----------------------------*/
+    footer > :nth-child(2) > a{
+        margin: 0 40px;
+    }
+    footer > :nth-child(3) > img{
+        margin: 50px 20px 20px;   
+    }
+}
